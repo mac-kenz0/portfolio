@@ -1,0 +1,77 @@
+.main-header, .heading {
+    font-family: "Montserrat";
+}
+.details, .second-colomn-content{
+	font-family:"Cardo";
+}
+.resume {
+    width: 850px;
+    margin: 0 auto;
+    background:#fff;
+    padding-bottom: 20px;
+
+}
+.main-header {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 35px;
+    margin-bottom: -5px;
+    letter-spacing: .85px;
+}
+body {
+    background: #f1f1f1;
+}
+
+.first-colomn {
+    float: left;
+    width: 185px;
+    margin-left: 85px;
+}
+.second-column {
+    float: right;
+    width: 467px;
+    padding-right: 75px;
+}
+
+.resume-content {
+    overflow: auto;
+    margin-top: 16px;
+}
+hr.divider {
+    width: 700px;
+    border-top: 1px solid #000;
+}
+.first-colomn ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 2px;
+}
+.heading {
+    font-size: 21px;
+}
+.first-colomn li {
+    font-size: 16px;
+}
+
+.title {
+    float: left;
+    font-size: 17px;
+}
+
+.date {
+    float: right;
+}
+.subHeading {
+    overflow: auto;
+}
+.second-column .details ul {
+    padding-left: 20px;
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+em.company {
+    font-style: normal;
+}
+
+
