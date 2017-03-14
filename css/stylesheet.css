@@ -4,6 +4,13 @@
 .details, .second-colomn-content{
 	font-family:"Cardo";
 }
+
+@media (max-width: 850px) {
+    .resume  {
+        width:100%;
+    }
+}
+
 .resume {
     width: 850px;
     margin: 0 auto;
