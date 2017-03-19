@@ -1,22 +1,50 @@
-.main-header, .heading {
-    font-family: "Montserrat";
-}
-.details, .second-colomn-content{
-	font-family:"Cardo";
+
+@media (max-width:699px){
+ .resume {
+   width: 100%
+}   
 }
 
-@media (max-width: 850px) {
-    .resume  {
-        width:100%;
-    }
+@media (min-width: 700px) and (max-width:849px){
+ .resume {
+   width: 700px;
 }
 
+hr.divider {
+    width: 600px;
+    margin-bottom: 25px;
+}
+.main-header {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 35px;
+    margin-bottom: -5px;
+    letter-spacing: 0.85px;
+}
+.resume-content {
+    margin: 0px 60px;
+}
+.heading {
+    font-size: 21px;
+    margin-bottom: 2px;
+}
+.subHeading {
+    margin-bottom: 2px;
+}
+.date {
+    font-size: 15px;
+}
+}
+
+
+
+@media (min-width: 851px){
 .resume {
     width: 850px;
-    margin: 0 auto;
-    background:#fff;
     padding-bottom: 20px;
-
+}
+hr.divider {
+    width: 700px;
 }
 .main-header {
     font-size: 36px;
@@ -25,10 +53,6 @@
     margin-bottom: -5px;
     letter-spacing: .85px;
 }
-body {
-    background: #f1f1f1;
-}
-
 .first-colomn {
     float: left;
     width: 185px;
@@ -39,13 +63,39 @@ body {
     width: 467px;
     padding-right: 75px;
 }
+.resume-content {
+    margin-top: 16px;
+}
+.heading {
+    font-size: 21px;
+}
+}
+
+
+.main-header, .heading {
+    font-family: "Montserrat";
+}
+.details, .second-colomn-content{
+    font-family:"Cardo";
+}
+
+.resume {
+    margin: 0 auto;
+    background:#fff;
+}
+
+
+
+body {
+    background: #f1f1f1;
+}
+
+
 
 .resume-content {
     overflow: auto;
-    margin-top: 16px;
 }
 hr.divider {
-    width: 700px;
     border-top: 1px solid #000;
 }
 .first-colomn ul {
@@ -53,16 +103,13 @@ hr.divider {
     padding-left: 0px;
     margin-top: 2px;
 }
-.heading {
-    font-size: 21px;
-}
+
 .first-colomn li {
     font-size: 16px;
 }
 
 .title {
     float: left;
-    font-size: 17px;
 }
 
 .date {
